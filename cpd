@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Version 1.0
+# make it in /bin/cpd and chmod 755
+
+tvar=$1_`date +%Y-%m-%d_%H_%M_%S`
+cp $1 $tvar
+ls -altr $tvar
