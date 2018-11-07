@@ -1,2 +1,6 @@
 .DS_Store
 **/*.swp
+**/*.swo
+memo.sh
+memo.md
+
