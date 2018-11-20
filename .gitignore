@@ -3,4 +3,5 @@
 **/*.swo
 memo.sh
 memo.md
+**/to-do/*
 
