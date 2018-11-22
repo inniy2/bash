@@ -1,6 +1,5 @@
 .DS_Store
-**/*.swp
-**/*.swo
+**/*.sw[a-z]
 memo.sh
 memo.md
 **/to-do/*
