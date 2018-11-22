@@ -19,6 +19,15 @@ Example:
   grep -rl --exclude-dir=.git './' -e 'CCC'      | xargs sed -i '' 's/CCC/XXXXX/g'
 ```
 
+Example2:  
+```
+grep -rnw --exclude-dir={.git,boxes} './' -e 'pattern1\|pattern2\|pattern3'
+```
+
+Example3: pattern replace  
+```
+grep -rl --exclude-dir={.git,boxes} './' -e 'pattern'      | xargs sed -i '' 's/pattern/XXXXX/g'
+```
 
 - Replace string in OSX
 ```bash
